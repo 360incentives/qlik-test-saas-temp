@@ -1,0 +1,15 @@
+[DI_Charts]:
+LOAD * INLINE [
+    DI_ChartType, DI_Chart,DI_Chart_Usecase,DI_Chart_Name,DI_ChartSeqNo
+   	'Table',	'Table',		'UtilizationByDealer','Utilization By Dealer',1
+    'BarChart',	'Bar Chart',	'UtilizationByDealer','Utilization By Dealer',2
+    'BarChartV','Bar Chart - V','UtilizationByDealer','Dealer Fund Utilization %s',3
+   	'PieChart',	'Pie Chart',	'UtilizationByDealer','Utilization By Dealer',4
+	'PivotTable','Pivot Table',	'UtilizationByDealer','Utilization By Dealer',5
+    'LineChart', 'Line Chart',	'UtilizationByDealer','Utilization By Dealer',6
+    'ComboChart','Combo Chart',	'UtilizationByDealer','Utilization By Dealer',7
+    'ComboChartV','Combo Chart - V','UtilizationByDealer','Dealer Fund Utilization %s',8
+    'ScatterPlot','Scatter Plot','UtilizationByDealer','Correlation',9
+    'DistributionPlot','Distribution Plot','UtilizationByDealer','Utilization By Dealer',10
+   
+];
